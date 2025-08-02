@@ -1,0 +1,5 @@
+{
+  "name": "EV Battery Intelligence",
+  "description": "A predictive digital twin for proactive EV battery maintenance, forecasting health and remaining useful life (RUL) using AI.",
+  "requestFramePermissions": []
+}
