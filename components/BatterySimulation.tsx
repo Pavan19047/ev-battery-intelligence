@@ -78,7 +78,7 @@ const HealthParticles = ({ alertLevel }: { alertLevel: string }) => {
         for (let i = 0; i < particleCount; i++) {
             const theta = Math.random() * 2 * Math.PI;
             const phi = Math.acos(2 * Math.random() - 1);
-            const r = 1.5 + Math.random() * 1;
+            const r = 1.5 + Math.random() * 0.5;
 
             pos[i * 3] = r * Math.sin(phi) * Math.cos(theta);
             pos[i * 3 + 1] = r * Math.sin(phi) * Math.sin(theta);
